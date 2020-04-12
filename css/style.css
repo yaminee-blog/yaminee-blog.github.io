@@ -8098,8 +8098,8 @@ h1, h2, h3, h4, h5,
       background: #fd5f00;
       border: 1px solid #fd5f00; }
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored a {
-    border: 1px solid #ffd615;
-    background: #ffd615 !important; }
+    border: 1px solid green;
+    background: green !important; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
     color: rgba(0, 0, 0, 0.5); }
   @media (max-width: 991.98px) {
@@ -8194,7 +8194,7 @@ h1, h2, h3, h4, h5,
   font-weight: 900;
   position: relative; }
   .navbar-brand span {
-    color: #ffd615; }
+    color: green; }
   .navbar-brand:hover, .navbar-brand:focus {
     color: #000000 !important; }
 
@@ -8268,7 +8268,7 @@ h1, h2, h3, h4, h5,
               width: 100%; } }
         .owl-carousel.home-slider .slider-item .slider-text .text {
           width: 34%;
-          background: #ffd615;
+          background: green;
           height: 680px;
           z-index: 1; }
           .owl-carousel.home-slider .slider-item .slider-text .text .text-2 {
@@ -8474,7 +8474,7 @@ h1, h2, h3, h4, h5,
   background: #fd5f00; }
 
 .bg-secondary {
-  background: #ffd615 !important; }
+  background: green !important; }
 
 .btn {
   cursor: pointer;
@@ -8593,7 +8593,7 @@ h1, h2, h3, h4, h5,
           .blog-entry .img.img-big .text h3 a {
             color: #fff; }
         .blog-entry .img.img-big .text .subheading {
-          color: #ffd615; }
+          color: green; }
         .blog-entry .img.img-big .text .btn-custom {
           position: absolute;
           bottom: 0;
@@ -8631,7 +8631,7 @@ h1, h2, h3, h4, h5,
           .blog-entry .img.img-big-2 .text h3 a {
             color: #fff; }
         .blog-entry .img.img-big-2 .text .subheading {
-          color: #ffd615; }
+          color: green; }
         .blog-entry .img.img-big-2 .text .btn-custom {
           position: absolute;
           bottom: 0;
@@ -8970,7 +8970,7 @@ textarea.form-control {
       width: 10px;
       height: 10px;
       content: '';
-      background: #ffd615; }
+      background: green; }
   @media (max-width: 767.98px) {
     .heading-section h2 {
       font-size: 28px; } }
@@ -9141,7 +9141,7 @@ textarea.form-control {
     -ms-border-radius: 50%;
     border-radius: 50%; }
     .contact-section .box .icon span {
-      color: #ffd615;
+      color: green;
       font-size: 30px; }
   .contact-section .box h3 {
     font-size: 18px;
