@@ -43,6 +43,26 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0&appId=740212466515654&autoLogAppEvents=1"></script>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '740212466515654',
+            xfbml      : true,
+            version    : 'v6.0'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
         <a class="navbar-brand" href="../index.html">Stories<span>.</span></a>
@@ -77,7 +97,15 @@
         </div>
     </div>
 </section>
-
+<section>
+    <div
+            class="fb-like"
+            data-share="true"
+            data-width="450"
+            data-show-faces="true">
+    </div>
+    <div class="fb-share-button" data-href="http://yaminee-blog.github.io/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fyaminee-blog.github.io%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+</section>
 <section class="ftco-section">
     <div class="container">
         <div class="row">
