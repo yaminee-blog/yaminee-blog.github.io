@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5,
 	&.home-slider {
 		position: relative;
 		height: 680px;
-		@media (max-width: 1023px) {
+		@media (max-width: 1024px) {
 			height: 50vh;
 		}
 		z-index: 0;
@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5,
 			background-repeat: no-repeat;
 			background-position: center center;
 			height: 680px;
-			@media (max-width: 1023px) {
+			@media (max-width: 1024px) {
 				height: 50vh;
 			}
 			position: relative;
@@ -394,7 +394,7 @@ h1, h2, h3, h4, h5,
 			}
 			.slider-text {
 				height: 680px;
-				@media (max-width: 1023px) {
+				@media (max-width: 1024px) {
 					height: 50vh;
 				}
 				z-index: 0;
@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5,
 					width: 66%;
 					// max-width: 66%;
 					height: 680px;
-					@media (max-width: 1023px) {
+					@media (max-width: 1024px) {
 						height: 50vh;
 					}
 					z-index: -1;
@@ -418,13 +418,13 @@ h1, h2, h3, h4, h5,
 					// max-width: 34%;
 					background: $secondary;
 					height: 680px;
-					@media (max-width: 1023px) {
+					@media (max-width: 1024px) {
 						height: 50vh;
 					}
 					z-index: 1;
 					.text-2{
 						position: relative;
-						@media (max-width: 1023px) {
+						@media (max-width: 1024px) {
 							.subheading {
 								font-size: 10px;
 								font-weight: bold;
