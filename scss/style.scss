@@ -1858,3 +1858,16 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+.round-images {
+	width: 175px;
+	height: 175px;
+	-webkit-border-radius: 175px;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 175px;
+	-moz-background-clip: padding;
+	border-radius: 175px;
+	background-clip: padding-box;
+	margin: 15px 15px 0 5px;
+	float: left;
+}
