@@ -7170,6 +7170,9 @@ h1, h2, h3, h4, h5,
     position: relative;
     height: 680px;
     z-index: 0; }
+    @media (max-width: 1023px) {
+      .owl-carousel.home-slider {
+        height: 50vh; } }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
@@ -7177,6 +7180,9 @@ h1, h2, h3, h4, h5,
       height: 680px;
       position: relative;
       z-index: 0; }
+      @media (max-width: 1023px) {
+        .owl-carousel.home-slider .slider-item {
+          height: 50vh; } }
       @media (max-width: 1199.98px) {
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
@@ -7191,6 +7197,9 @@ h1, h2, h3, h4, h5,
       .owl-carousel.home-slider .slider-item .slider-text {
         height: 680px;
         z-index: 0; }
+        @media (max-width: 1023px) {
+          .owl-carousel.home-slider .slider-item .slider-text {
+            height: 50vh; } }
         @media (max-width: 767.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
             text-align: center; } }
@@ -7198,6 +7207,9 @@ h1, h2, h3, h4, h5,
           width: 66%;
           height: 680px;
           z-index: -1; }
+          @media (max-width: 1023px) {
+            .owl-carousel.home-slider .slider-item .slider-text .img {
+              height: 50vh; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .img {
               width: 100%; } }
@@ -7206,8 +7218,21 @@ h1, h2, h3, h4, h5,
           background: green;
           height: 680px;
           z-index: 1; }
+          @media (max-width: 1023px) {
+            .owl-carousel.home-slider .slider-item .slider-text .text {
+              height: 50vh; } }
           .owl-carousel.home-slider .slider-item .slider-text .text .text-2 {
             position: relative; }
+            @media (max-width: 1023px) {
+              .owl-carousel.home-slider .slider-item .slider-text .text .text-2 .subheading {
+                font-size: 10px;
+                font-weight: bold; }
+              .owl-carousel.home-slider .slider-item .slider-text .text .text-2 h1 {
+                font-size: 20px; }
+              .owl-carousel.home-slider .slider-item .slider-text .text .text-2 p {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 1; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .text {
               width: 100%;
