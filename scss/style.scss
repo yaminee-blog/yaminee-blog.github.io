@@ -1034,7 +1034,14 @@ textarea.form-control {
 
 	}
 }
-
+.ftco-section-recipe {
+	padding: 7em 0;
+	position: relative;
+	z-index: 0;
+	@include media-breakpoint-down(md){
+		padding: 1em 0;
+	}
+}
 
 .ftco-section {
 	padding: 7em 0;
