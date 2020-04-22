@@ -8383,7 +8383,7 @@ textarea.form-control {
 
 blockquote {
   background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  border-left: 2px solid #ead0d0;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "“" "”" "‘" "’"; }
