@@ -1043,6 +1043,12 @@ textarea.form-control {
 	}
 }
 
+.subtitle-txt {
+	@include media-breakpoint-down(sm){
+		display: none;
+	}
+}
+
 .ftco-section {
 	padding: 2em 0;
 	position: relative;

@@ -7719,6 +7719,10 @@ textarea.form-control {
     .ftco-section-recipe {
       padding: 1em 0; } }
 
+@media (max-width: 767.98px) {
+  .subtitle-txt {
+    display: none; } }
+
 .ftco-section {
   padding: 2em 0;
   position: relative;
