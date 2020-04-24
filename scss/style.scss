@@ -1,6 +1,6 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
-
+@import "blog.scss";
 $font-primary: 'Poppins',Arial, sans-serif;
 $font-secondary: 'Playfair Display', serif;
 
@@ -44,7 +44,7 @@ html {
 }
 body {
 	font-family: $font-primary;
-	background: $white;
+	background: rgba(#eeeeee, 0.1);
 	font-size: 16px;
 	line-height: 1.8;
 	font-weight: 400;
