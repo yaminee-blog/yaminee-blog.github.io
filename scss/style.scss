@@ -58,10 +58,8 @@ body {
 }
 a {
 	transition: .3s all ease;
-	color: $primary;
 	&:hover, &:focus {
 		text-decoration: none;
-		color: $primary;
 		outline: none !important;
 	}
 }

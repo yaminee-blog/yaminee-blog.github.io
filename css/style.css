@@ -6951,11 +6951,9 @@ body {
     width: 100%; }
 
 a {
-  transition: .3s all ease;
-  color: #fd5f00; }
+  transition: .3s all ease; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #fd5f00;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
