@@ -255,7 +255,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #sceneList {
   position: absolute;
-  top: 19px;
+  top: 10%;
   left: -220px;
   padding-top: 40px;
   width: 220px;
@@ -435,6 +435,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 /* Info hotspot */
 
 .info-hotspot {
+  display: none;
   line-height: 1.2em;
   opacity: 0.9;
   -webkit-transition: opacity 0.2s 0.2s;
@@ -453,6 +454,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .info-hotspot .info-hotspot-header {
   width: 40px;
+  display: none;
   height: 40px;
   border-radius: 20px;
   background-color: rgb(103,115,131);
