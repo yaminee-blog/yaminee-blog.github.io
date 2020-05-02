@@ -6939,12 +6939,11 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  /* background: rgba(238, 238, 238, 0.1); */
+  background: rgba(238, 238, 238, 0.1);
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #999999;
-  }
+  color: #999999; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
