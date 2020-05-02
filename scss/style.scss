@@ -515,6 +515,9 @@ h1, h2, h3, h4, h5,
 			}
 			.owl-prev,
 			.owl-next {
+				&.display-none {
+					display: none;
+				}
 				position: absolute;
 				width: 17.1%;
 				height: 90px;
