@@ -8254,12 +8254,13 @@ textarea.form-control {
     font-weight: 900; }
 
 .about img {
-  width: 150px;
+  width: 200px;
   height: auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%; }
+  border-radius: 50%;
+  }
 
 .about .text strong {
   color: #000000; }
