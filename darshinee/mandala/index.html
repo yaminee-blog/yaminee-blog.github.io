@@ -94,27 +94,39 @@
         </div>
     </div>
 </section>
-<section class="ftco-section-recipe">
+<section>
+    <div class="tab">
+        <button class="tablinks active" onclick="openTab(event, 'home')">Home</button>
+        <button class="tablinks" onclick="openTab(event, 'comments')">Comments</button>
+        <button class="tablinks" onclick="openTab(event, 'about')">About me</button>
+    </div>
+</section>
+<section style="margin-top: 15px;">
+    <div class="heading mb-4" style="justify-content: center; display: flex">
+        <div class="fb-like" style="margin-right: 10px"
+             data-href="https://yaminee-blog.github.io/darshinee/mandala/index.html"
+             data-width="200"
+             data-layout="button"
+             data-action="like"
+             data-size="large"
+             data-share="false">
+        </div>
+        <div class="fb-share-button" data-width="200"
+             data-href="https://yaminee-blog.github.io/darshinee/mandala/index.html"
+             data-layout="button_count" data-size="large">
+            <a target="_blank"
+               href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fyaminee-blog.github.io%2Fdarshinee%2Fmandala%2Findex.html%2F&amp;src=sdkpreparse"
+               class="fb-xfbml-parse-ignore">Share</a></div>
+    </div>
+</section>
+
+<section id="home" class="ftco-section-recipe tabcontent" style="display: block">
     <div class="container">
         <div class="row">
+            <div class="col-lg-1"></div>
             <div class="col-lg-9 ftco-animate">
                 <div class="sidebar-box ftco-animate">
-                    <h3 class="heading mb-4"><span style="margin-right: 50px;">Mandala - My realm</span>
-                        <div class="fb-like"
-                             data-href="https://yaminee-blog.github.io/darshinee/mandala/index.html"
-                             data-width=""
-                             data-layout="button"
-                             data-action="like"
-                             data-size="large"
-                             data-share="false">
-                        </div>
-                        <span class="arvind-share fb-share-button"
-                              data-href="http://yaminee-blog.github.io/darshinee/mandala/index.html"
-                              data-layout="button_count" data-size="large">
-                            <a target="_blank"
-                               href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fyaminee-blog.github.io%2Fdarshinee%2Fmandala%2Findex.html%2F&amp;src=sdkpreparse"
-                               class="fb-xfbml-parse-ignore">Share</a></span>
-                    </h3>
+                    <h2 class="heading mb-4" style="display: flex; justify-content: center; text-decoration: underline">Mandala - My realm</h2>
                    <p>
                        <blockquote> Mandala - means circle in the Sanskrit language</blockquote>
                    </p>
@@ -146,22 +158,6 @@
                     <p>
                         <blockquote>My word to the world is – Trust your guts people, do what you love and unleash your creativity anywhere possible."</blockquote>
                     </p>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="sidebar-wrap">
-                    <div class="sidebar-box p-4 about text-center ftco-animate">
-                        <h2 class="heading mb-4">About Me</h2>
-                        <img src="images/about.png" class="img-fluid">
-                        <div class="text pt-4">
-                            <p>Hello</p>
-                                <p>I'm <b>Darshinee</b></p>
-                                A mandala artist - mandala which means circle in the Sanskrit language
-                            <blockquote>
-                                <br>Art enables us to find ourselves and lose ourselves at the same time.
-                            </blockquote>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -307,6 +303,43 @@
     </div>
 </section>
 
+<section id="comments" class="ftco-section-recipe tabcontent">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="fb-comments" data-href="https://yaminee-blog.github.io/darshinee/mandala/index.html" data-width=""
+                     data-numposts="15"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="ftco-section-recipe tabcontent">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="sidebar-wrap">
+                    <div class="sidebar-box p-4 about text-center ftco-animate">
+                        <h2 class="heading mb-4">About Me</h2>
+                        <img src="images/about.png" class="img-fluid">
+                        <div class="text pt-4">
+                            <p>Hello</p>
+                            <p>I'm <b>Darshinee</b></p>
+                            A mandala artist - mandala which means circle in the Sanskrit language
+                            <blockquote>
+                                Art enables us to find ourselves and lose ourselves at the same time.
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="../../scripts/tabs.js"></script>
 <script src="../../js/jquery.min.js"></script>
 <script src="../../js/jquery-migrate-3.0.1.min.js"></script>
 <script src="../../js/popper.min.js"></script>
@@ -319,8 +352,6 @@
 <script src="../../js/aos.js"></script>
 <script src="../../js/jquery.animateNumber.min.js"></script>
 <script src="../../js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-<script src="../../js/google-map.js"></script>
 <script src="../../js/main.js"></script>
 
 </body>

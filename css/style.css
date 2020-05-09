@@ -38,7 +38,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  }
 
 html {
   font-family: sans-serif;
@@ -5428,7 +5429,8 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important; }
+  /* margin-bottom: 1.5rem !important; */
+  }
 
 .ml-4,
 .mx-4 {
@@ -6958,10 +6960,11 @@ a {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  line-height: 1.5;
-  color: rgba(0, 0, 0, 0.8);
+  /* line-height: 1.5; */
+  /* color: rgba(0, 0, 0, 0.8); */
   font-weight: 400;
-  font-family: "Playfair Display", serif; }
+  /* font-family: "Playfair Display", serif; */
+  }
 
 .container {
   max-width: 1200px; }
@@ -7321,6 +7324,9 @@ h1, h2, h3, h4, h5,
         -ms-transition: all 0.7s ease;
         transition: all 0.7s ease;
         opacity: 1; }
+        .owl-carousel.home-slider .owl-nav .owl-prev.display-none,
+        .owl-carousel.home-slider .owl-nav .owl-next.display-none {
+          display: none; }
         .owl-carousel.home-slider .owl-nav .owl-prev span:before,
         .owl-carousel.home-slider .owl-nav .owl-next span:before {
           font-size: 20px;
@@ -8254,13 +8260,12 @@ textarea.form-control {
     font-weight: 900; }
 
 .about img {
-  width: 200px;
+  width: 150px;
   height: auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
-  }
+  border-radius: 50%; }
 
 .about .text strong {
   color: #000000; }
@@ -8268,7 +8273,8 @@ textarea.form-control {
 .sidebar-box {
   margin-bottom: 30px;
   font-size: 15px;
-  width: 100%; }
+  width: 100%;
+  }
   .sidebar-box .heading {
     font-size: 24px;
     font-weight: 900; }
@@ -8412,3 +8418,38 @@ blockquote:before {
 
 blockquote p {
   display: inline; }
+
+/* Style the tab */
+.tab {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1; }
+
+/* Style the buttons inside the tab */
+.tab button {
+  width: 100%;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px; }
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd; }
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc; }
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none; }
